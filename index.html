@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>videos</title>
+</head>
+<body>
+    <h1>ESCOLHA SEU VÍDEO</h1>
+    <input type="file" id="input_video" accept="video/*">
+    <video id="video_selected" src="" controls></video>
+    <form id="controls">
+        <input type="checkbox" id="inc1" onclick="cinc1()"><label>AUTOPLAY</label>
+        <input type="checkbox" id="inc2" onclick="cinc2()"><label>LOOP</label>
+        <input type="checkbox" id="inc3" onclick="cinc3()"><label>MUTED</label>
+    </form>
+
+
+    <script src="/main.js"></script>
+</body>
+</html>

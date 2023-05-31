@@ -1,0 +1,33 @@
+video{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue
+}
+#input_video{
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(194, 48, 138), rgb(204, 88, 228));
+}
+#controls{
+    border-radius: 2px;
+    padding: 10px;
+    width: 258px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 2px 1px black ;
+    background-image: linear-gradient(to right, rgb(101, 253, 159), rgb(231, 29, 22));
+}
